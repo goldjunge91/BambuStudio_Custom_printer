@@ -36,3 +36,10 @@ _you have to find Appdata/Roming folder._
 in Case you want to make changes to the printer settings
 Print area: Anycubic I3Mega 0.4 nozzle.json search "printable area":[ her you can change your size
 Machine settings: fdm_Anycubic_common.json
+
+
+###License 
+
+feel free to share modify and copy
+
+GNU General Public License v3.0
