@@ -1,0 +1,51 @@
+{
+    "name": "Demo",
+    "url": "",
+    "version": "01.00.00.00",
+    "force_update": "0",
+    "description": "the initial version of Demo configurations",
+    "machine_model_list": [
+        {
+            "name": "Demo printer model",
+            "sub_path": "machine/Demo printer model.json"
+        }
+    ],
+    "process_list": [
+        {
+            "name": "fdm_process_common",
+            "sub_path": "process/fdm_process_common.json"
+        },
+        {
+            "name": "fdm_process_demo_common",
+            "sub_path": "process/fdm_process_demo_common.json"
+        },
+        {
+            "name": "fdm_process_demo_0.20",
+            "sub_path": "process/fdm_process_demo_0.20.json"
+        },
+        {
+            "name": "0.20mm Standard @Demo printer",
+            "sub_path": "process/0.20mm Standard @Demo printer.json"
+        }
+    ],
+    "filament_list": [
+        {
+            "name": "Demo PLA",
+            "sub_path": "filament/Demo PLA.json"
+        }
+    ],
+    "machine_list": [
+        {
+            "name": "fdm_machine_common",
+            "sub_path": "machine/fdm_machine_common.json"
+        },
+        {
+            "name": "fdm_demo_printer_common",
+            "sub_path": "machine/fdm_demo_printer_common.json"
+        },
+        {
+            "name": "Demo printer 0.4 nozzle",
+            "sub_path": "machine/Demo printer 0.4 nozzle.json"
+        }
+    ]
+}

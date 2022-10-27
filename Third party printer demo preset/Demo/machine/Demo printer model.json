@@ -1,0 +1,13 @@
+{
+    "type": "machine_model",
+    "name": "Demo printer model",
+    "model_id": "",
+    "url": "",
+    "nozzle_diameter": "0.4",
+    "machine_tech": "FFF",
+    "family": "Demo-3DP",
+    "bed_model": "demo-3dp.stl",
+    "bed_texture": "demo-3dp-logo.svg",
+    "hotend_model": "demo-3dp-hotend.stl",
+    "default_materials": "Demo PLA"
+}
