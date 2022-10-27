@@ -1,0 +1,82 @@
+{
+    "name": "Example", //
+    "version": "01.01.01.01",
+    "force_update": "0",
+    "description": "Example configurations",
+    "machine_model_list": [
+        {
+            "name": "Example Example",
+            "sub_path": "machine/Example.json"
+        }
+    ],
+    "process_list": [
+        {
+            "name": "fdm_process_common",
+            "sub_path": "process/fdm_process_common.json"
+        },
+        {
+            "name": "fdm_process_Example",
+            "sub_path": "process/fdm_process_Example_common.json"
+        },
+        {
+            "name": "0.12mm Fine @Example",
+            "sub_path": "process/0.12mm Fine @Example.json"
+        },
+        {
+            "name": "0.15mm Optimal @Example",
+            "sub_path": "process/0.15mm Optimal @Example.json"
+        },
+        {
+            "name": "0.20mm Standard @Example",
+            "sub_path": "process/0.20mm Standard @Example.json"
+        },
+        {
+            "name": "0.24mm Draft @Example",
+            "sub_path": "process/0.24mm Draft @Example.json"
+        }
+    ],
+    "filament_list": [
+        {
+            "name": "fdm_filament_common",
+            "sub_path": "filament/fdm_filament_common.json"
+        },
+        {
+            "name": "fdm_filament_pla",
+            "sub_path": "filament/fdm_filament_pla.json"
+        },
+        {
+            "name": "fdm_filament_pet",
+            "sub_path": "filament/fdm_filament_pet.json"
+        },
+        {
+            "name": "fdm_filament_abs",
+            "sub_path": "filament/fdm_filament_abs.json"
+        },
+        {
+            "name": "Generic PLA @Example",
+            "sub_path": "filament/Generic PLA @Example.json"
+        },
+        {
+            "name": "Generic PETG @Example",
+            "sub_path": "filament/Generic PETG @Example.json"
+        },
+        {
+            "name": "Generic ABS @Example",
+            "sub_path": "filament/Generic ABS @Example.json"
+        }
+    ],
+    "machine_list": [
+        {
+            "name": "fdm_machine_common",
+            "sub_path": "machine/fdm_machine_common.json"
+        },
+        {
+            "name": "fdm_Example_common",
+            "sub_path": "machine/fdm_Example_common.json"
+        },
+        {
+            "name": "Example Example 0.4 nozzle", // this name is only the filename 
+            "sub_path": "machine/Example Example 0.4 nozzle.json" // of this file 
+        }
+    ]
+}
