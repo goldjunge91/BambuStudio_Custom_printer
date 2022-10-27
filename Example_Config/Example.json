@@ -1,5 +1,5 @@
 {
-    "name": "Example", //
+    "name": "Example",
     "version": "01.01.01.01",
     "force_update": "0",
     "description": "Example configurations",
@@ -75,8 +75,8 @@
             "sub_path": "machine/fdm_Example_common.json"
         },
         {
-            "name": "Example Example 0.4 nozzle", // this name is only the filename 
-            "sub_path": "machine/Example Example 0.4 nozzle.json" // of this file 
+            "name": "Example Example 0.4 nozzle",
+            "sub_path": "machine/Example Example 0.4 nozzle.json"
         }
     ]
 }
