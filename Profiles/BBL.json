@@ -1,17 +1,17 @@
 {
-    "name": "Bambulab",
-    "url": "http://www.bambulab.com/Parameters/vendor/BBL.json",
-    "version": "01.03.00.13",
+    "name": "Ai3MS",
+    "url": "https://de.anycubic.com/",
+    "version": "00.00.00.01",
     "force_update": "0",
-    "description": "the initial version of BBL configurations",
+    "description": "the initial version of My Anycubic Config configurations",
     "machine_model_list": [
         {
-            "name": "Bambu Lab X1 Carbon",
-            "sub_path": "machine/Bambu Lab X1 Carbon.json"
+            "name": "Ai3MS-Direct",
+            "sub_path": "machine/Ai3MS-direct.json"
         },
         {
-            "name": "Bambu Lab X1",
-            "sub_path": "machine/Bambu Lab X1.json"
+            "name": "Ai3MS-Bowden",
+            "sub_path": "machine/Ai3MS-bowden.json"
         }
     ],
     "process_list": [
@@ -20,8 +20,8 @@
             "sub_path": "process/fdm_process_common.json"
         },
         {
-            "name": "fdm_process_bbl_common",
-            "sub_path": "process/fdm_process_bbl_common.json"
+            "name": "fdm_process_Ai3MS-direct_common",
+            "sub_path": "process/fdm_process_Ai3MS-direct_common.json"
         },
         {
             "name": "fdm_process_bbl_0.08",
@@ -396,40 +396,40 @@
             "sub_path": "machine/fdm_machine_common.json"
         },
         {
-            "name": "fdm_bbl_3dp_001_common",
-            "sub_path": "machine/fdm_bbl_3dp_001_common.json"
+            "name": "fdm_Ai3MS-direct_001_common",
+            "sub_path": "machine/fdm_Ai3MS-direct_001_common.json"
         },
         {
-            "name": "Bambu Lab X1 Carbon 0.4 nozzle",
-            "sub_path": "machine/Bambu Lab X1 Carbon 0.4 nozzle.json"
+            "name": "Ai3MS-direct 0.4 nozzle",
+            "sub_path": "machine/Ai3MS-direct 0.4 nozzle.json"
         },
         {
-            "name": "Bambu Lab X1 0.4 nozzle",
-            "sub_path": "machine/Bambu Lab X1 0.4 nozzle.json"
+            "name": "Ai3MS-bowden 0.4 nozzle",
+            "sub_path": "machine/Ai3MS-bowden 0.4 nozzle.json"
         },
         {
-            "name": "Bambu Lab X1 0.2 nozzle",
-            "sub_path": "machine/Bambu Lab X1 0.2 nozzle.json"
+            "name": "Ai3MS-bowden 0.2 nozzle",
+            "sub_path": "machine/Ai3MS-bowden 0.2 nozzle.json"
         },
         {
-            "name": "Bambu Lab X1 0.8 nozzle",
-            "sub_path": "machine/Bambu Lab X1 0.8 nozzle.json"
+            "name": "Ai3MS-bowden 0.8 nozzle",
+            "sub_path": "machine/Ai3MS-bowden 0.8 nozzle.json"
         },
         {
-            "name": "Bambu Lab X1 0.6 nozzle",
-            "sub_path": "machine/Bambu Lab X1 0.6 nozzle.json"
+            "name": "Ai3MS-bowden 0.6 nozzle",
+            "sub_path": "machine/Ai3MS-bowden 0.6 nozzle.json"
         },
         {
-            "name": "Bambu Lab X1 Carbon 0.2 nozzle",
-            "sub_path": "machine/Bambu Lab X1 Carbon 0.2 nozzle.json"
+            "name": "Ai3MS-direct 0.2 nozzle",
+            "sub_path": "machine/Ai3MS-direct 0.2 nozzle.json"
         },
         {
-            "name": "Bambu Lab X1 Carbon 0.6 nozzle",
-            "sub_path": "machine/Bambu Lab X1 Carbon 0.6 nozzle.json"
+            "name": "Ai3MS-direct 0.6 nozzle",
+            "sub_path": "machine/Ai3MS-direct 0.6 nozzle.json"
         },
         {
-            "name": "Bambu Lab X1 Carbon 0.8 nozzle",
-            "sub_path": "machine/Bambu Lab X1 Carbon 0.8 nozzle.json"
+            "name": "Ai3MS-direct 0.8 nozzle",
+            "sub_path": "machine/Ai3MS-direct 0.8 nozzle.json"
         }
     ]
 }
