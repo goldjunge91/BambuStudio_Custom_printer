@@ -1,0 +1,24 @@
+{if layer_z==1.20} M104 S230{endif};
+{if layer_z==11.20} M104 S225{endif};
+{if layer_z==21.20} M104 S220{endif};
+{if layer_z==31.20} M104 S215{endif};
+{if layer_z==41.20} M104 S210{endif};
+{if layer_z==51.20} M104 S205{endif};
+{if layer_z==61.20} M104 S200{endif};
+{if layer_z==71.20} M104 S195{endif};
+{if layer_z==81.20} M104 S190{endif};
+
+{if timelapse_type == 1} ; timelapse with wipe tower
+G92 E0
+G1 E-[retraction_length] F1800
+G1 X65 Y245 F12000 ; move to safe pos
+G1 Y265 F3000
+M400 P100
+M971 S11 C10 O0
+G92 E0
+G1 E[retraction_length] F300
+G1 X100 F5000
+G1 Y255
+{elsif timelapse_type == 2} ; timelapse without wipe tower
+M971 S11 C10 O0
+{endif}

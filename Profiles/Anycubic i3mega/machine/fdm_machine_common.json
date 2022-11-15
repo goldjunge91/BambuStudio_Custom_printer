@@ -110,7 +110,7 @@
     "wipe": [
         "1"
     ],
-    "default_print_profile": "0.20mm Standard @Anycubic",
+    "default_print_profile": "0.15mm Optimal @Anycubic",
     "machine_start_gcode": "",
     "machine_end_gcode": ""
 }
