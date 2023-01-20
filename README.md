@@ -2,6 +2,8 @@
 
 my configs for BambuStudio Custom Printer
 
+## the "third party printer demo preset are from her --> [wiki](https://wiki.bambulab.com/en/software/bambu-studio/add-third-party-printer-in-studio)
+
 _**(i install BambuStudio standard windows folder: "C:\Program Files\Bambu Studio"**_
 **Importend Directorys:**
 _...\Bambu Studio\resources\profiles_
