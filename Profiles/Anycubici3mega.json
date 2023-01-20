@@ -1,0 +1,82 @@
+{
+    "name": "Anycubic",
+    "version": "01.01.01.01",
+    "force_update": "0",
+    "description": "Anycubic configurations",
+    "machine_model_list": [
+        {
+            "name": "Anycubic I3Mega",
+            "sub_path": "machine/Anycubici3Mega.json"
+        }
+    ],
+    "process_list": [
+        {
+            "name": "fdm_process_common",
+            "sub_path": "process/fdm_process_common.json"
+        },
+        {
+            "name": "fdm_process_Anycubic",
+            "sub_path": "process/fdm_process_Anycubic_common.json"
+        },
+        {
+            "name": "0.12mm Fine @Anycubic",
+            "sub_path": "process/0.12mm Fine @Anycubic.json"
+        },
+        {
+            "name": "0.15mm Optimal @Anycubic",
+            "sub_path": "process/0.15mm Optimal @Anycubic.json"
+        },
+        {
+            "name": "0.20mm Standard @Anycubic",
+            "sub_path": "process/0.20mm Standard @Anycubic.json"
+        },
+        {
+            "name": "0.24mm Draft @Anycubic",
+            "sub_path": "process/0.24mm Draft @Anycubic.json"
+        }
+    ],
+    "filament_list": [
+        {
+            "name": "fdm_filament_common",
+            "sub_path": "filament/fdm_filament_common.json"
+        },
+        {
+            "name": "fdm_filament_pla",
+            "sub_path": "filament/fdm_filament_pla.json"
+        },
+        {
+            "name": "fdm_filament_pet",
+            "sub_path": "filament/fdm_filament_pet.json"
+        },
+        {
+            "name": "fdm_filament_abs",
+            "sub_path": "filament/fdm_filament_abs.json"
+        },
+        {
+            "name": "Generic PLA @Anycubic",
+            "sub_path": "filament/Generic PLA @Anycubic.json"
+        },
+        {
+            "name": "Generic PETG @Anycubic",
+            "sub_path": "filament/Generic PETG @Anycubic.json"
+        },
+        {
+            "name": "Generic ABS @Anycubic",
+            "sub_path": "filament/Generic ABS @Anycubic.json"
+        }
+    ],
+    "machine_list": [
+        {
+            "name": "fdm_machine_common",
+            "sub_path": "machine/fdm_machine_common.json"
+        },
+        {
+            "name": "fdm_Anycubic_common",
+            "sub_path": "machine/fdm_Anycubic_common.json"
+        },
+        {
+            "name": "Anycubic I3Mega 0.4 nozzle",
+            "sub_path": "machine/Anycubic I3Mega 0.4 nozzle.json"
+        }
+    ]
+}

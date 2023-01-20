@@ -1,0 +1,2 @@
+If you don't add the generic Filaments you get only this what you see on the Picture "Filament_settings.png" and then only the settings from "fdm_filament_common.json" will show up.
+but if you add all Generic Files you can directly set up your printer settings in the files fdm_filament_* /abs /pla /petg and Generic * /ABS /PLA /PETG so atleast six files to change or start with it.

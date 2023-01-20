@@ -1,0 +1,11 @@
+{
+    "type": "process",
+    "setting_id": "",
+    "name": "0.20mm Standard @Demo printer",
+    "from": "system",
+    "instantiation": "true",
+    "inherits": "fdm_process_demo_0.20",
+    "compatible_printers": [
+      "Demo printer 0.4 nozzle"
+    ]
+}

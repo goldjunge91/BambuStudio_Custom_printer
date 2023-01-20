@@ -1,0 +1,32 @@
+{
+  "type": "machine",
+  "setting_id": "xxx",
+  "name": "Demo printer 0.4 nozzle",
+  "from": "system",
+  "instantiation": "true",
+  "inherits": "fdm_demo_printer_common",
+  "printer_model": "Demo printer model",
+  "default_filament_profile": [
+      "Demo PLA"
+  ],
+  "default_print_profile": "0.20mm Standard @Demo printer",
+  "nozzle_diameter": [
+      "0.4"
+  ],
+  "printable_area": [
+	"0x0",
+	"250x0",
+	"250x230",
+	"0x230"
+  ],
+  "extruder_offset": [
+      "0x0"
+  ],
+  "machine_start_gcode": "",
+  "machine_end_gcode": "",
+  "scan_first_layer": "0",
+  "machine_load_filament_time": "0",
+  "machine_unload_filament_time": "0",
+  "nozzle_type": "hardened_steel",
+  "auxiliary_fan": "0"
+}
