@@ -6,7 +6,7 @@
     "machine_model_list": [
         {
             "name": "Anycubic I3Mega",
-            "sub_path": "machine/Anycubic I3Mega.json"
+            "sub_path": "machine/Anycubici3Mega.json"
         }
     ],
     "process_list": [
