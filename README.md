@@ -21,7 +21,9 @@ _...\AppData\Roaming\BambuStudio\system_
 
 If you have any trouble to open after this BambuStudio then follower this;
 
-1. go to "**C:\Users\"your username"\AppData\Roaming\BambuStudio\system**"
+1. go to:
+
+   "**C:\Users\"your-username"\AppData\Roaming\BambuStudio\system**"
 
 or
 
@@ -30,8 +32,8 @@ Click **Start**, go / type to **Run**, type in **%appdata%**, and press Enter Pr
 
 _you have to find Appdata/Roming folder._
 
-2. then Remove Anycubic folder and Anycubic.json
-3. Done run BambuStudio
+1. then Remove Anycubic folder and Anycubic.json
+2. Done run BambuStudio
 
 ## for Changes on the Stock Parameter
 
@@ -40,7 +42,7 @@ Print area: Anycubic I3Mega 0.4 nozzle.json search "printable area":[ her you ca
 Machine settings: fdm_Anycubic_common.json
 
 
-###License 
+### License
 
 feel free to share modify and copy
 
